@@ -1,7 +1,7 @@
 Summary:	Systemd integration for Sway session
 Name:		sway-systemd
 Version:	0.3.0
-Release:	1
+Release:	2
 License:	MIT
 URL:		https://github.com/alebastr/sway-systemd
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz

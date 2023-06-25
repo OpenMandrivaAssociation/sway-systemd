@@ -28,7 +28,7 @@ This includes several areas of integration:
 
 %build
 %meson \
-    -Dcgroups=disabled
+    -Dautoload-configs=all
 
 %meson_build
 

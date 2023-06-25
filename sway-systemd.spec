@@ -41,3 +41,6 @@ This includes several areas of integration:
 %config(noreplace) %{_sysconfdir}/sway/config.d/
 %{_libexecdir}/sway-systemd/
 %{_userunitdir}/sway-session.target
+%{_userunitdir}/sway-session-shutdown.target
+%{_userunitdir}/sway-xdg-autostart.target
+

@@ -38,7 +38,8 @@ This includes several areas of integration:
 %files
 %license LICENSE
 %doc README.md
-%config(noreplace) %{_sysconfdir}/sway/config.d/10-systemd-session.conf
+%config(noreplace) %{_sysconfdir}/sway/config.d/
 %dir %{_libexecdir}/%{name}
 %{_libexecdir}/%{name}/session.sh
+%{_libexecdir}/sway-systemd/
 %{_userunitdir}/sway-session.target

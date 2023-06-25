@@ -40,6 +40,5 @@ This includes several areas of integration:
 %doc README.md
 %config(noreplace) %{_sysconfdir}/sway/config.d/
 %dir %{_libexecdir}/%{name}
-%{_libexecdir}/%{name}/session.sh
 %{_libexecdir}/sway-systemd/
 %{_userunitdir}/sway-session.target
